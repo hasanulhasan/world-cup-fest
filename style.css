@@ -207,6 +207,9 @@ footer a{
     border-radius: 1rem;
   }
 }
+/* --------------------------------------------
+----------------Media Query for phone-------------- 
+------------------------------------------------*/
 
 @media only screen and (max-width: 320px){
   .container{
@@ -222,5 +225,29 @@ footer a{
     border: .1rem solid rgba(0, 0, 0, 0.213);
   }
   /* --------card content--------*/
+  .main-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .cards{
+  display: flex;
+  flex-direction: column;
+  }
+  .card{
+    width: 100%;
+    height: 410px;
+  }
+  /* --------card content--------*/
+  footer{
+    height: 350px;
+  }
+  .footer-menu{
+    display: flex;
+    flex-direction: column;
+  }
+  footer a{
+    margin-left: 0;
+    margin-top: 10px;
+  }
  
 }
