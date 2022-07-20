@@ -184,14 +184,17 @@ footer a{
     height: 40%;
     max-height: 346px;
   }
+  .banner-details{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+  }
   .banner-content{
-    padding: 2rem;
-    width: 40%;
-    height: 50%;
+    padding: 3rem;
+    padding-left: 1.5rem;
   }
   .banner-img img{
     height: auto;
-    width: 80%;
+    width: 90%;
     max-height: 300px;
   }
   .banner-content h1{
@@ -204,7 +207,7 @@ footer a{
     text-overflow: ellipsis;
     overflow: hidden;
     -webkit-line-clamp: 1;
-    padding-bottom: 1.2rem;
+    padding-bottom: 2rem;
   }
   .banner-content .btn{
     font-size: 15px;
@@ -275,25 +278,34 @@ footer a{
   }
   /* --------banner content--------*/
   .banner{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .banner-content{
-    padding: 2rem;
+    border-radius: 10px;
     width: 334px;
     height: 472px;
   }
+  .banner-details{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .banner-content{
+    padding: .7rem;
+    width: 80%;
+  }
   .banner-img img{
-   height: 100px;
-   width: 50px;
+    height: auto;
+   max-height: 300px;
+   width: 100%;
+   max-width: 220px;
   }
   .banner-content h1{
-    font-size: 15px;
+    font-size: 20px;
     padding-bottom: 1rem;
   }
   .banner-content p{
     font-size: 15px;
+    padding-bottom: 1.5rem;
+    width: 95%;
   }
   .banner-content .btn{
     font-size: 15px;
