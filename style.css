@@ -134,3 +134,23 @@ img{
 .icon-child{
   margin-left: 20px;
 }
+
+/* -------------Footer start-------------- */
+footer{
+  width: 100%;
+  background-color: var(--black);
+  height: 300px;
+  color: var(--white);
+  text-align: center;
+  padding-top: 150px;
+  font-size: 2rem;
+}
+footer a{
+  text-decoration: none;
+  color: var(--white);
+  font-size: 20px;
+  margin-left: 15px;
+}
+hr{
+  color: #DD0000;
+}
